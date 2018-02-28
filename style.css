@@ -1,0 +1,64 @@
+.navbar {
+  border-radius: 0px;
+  background-color: #2f3640;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #2f3640;
+}
+
+.bg {
+    background-image: url("bg.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@font-face {
+        font-family: "Montserrat-Regular";
+        src: url(Montserrat-Regular.ttf);
+}
+
+* {
+    font-family: "Montserrat-Regular";
+}
+
+.padding-50 {
+  padding-left: 5%;
+  padding-right: 12%;
+}
+
+#submitContact {
+  position: absolute;
+  width: 300px;
+  left: calc(50% - 150px);
+  background-color: #1289A7;
+  color: #2f3640;
+}
+
+.tfClass::-webkit-input-placeholder{
+  vertical-align: top;
+}
+
+.tfClass {
+  resize: vertical;
+}
+
+.firstColor {
+  color: #1289A7;
+}
